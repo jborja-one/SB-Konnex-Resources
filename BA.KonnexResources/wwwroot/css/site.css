@@ -125,6 +125,14 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, span {
     padding-bottom: 60px
 }
 
+.pr-60{
+    padding-right: 60px
+}
+
+.pl-60{
+    padding-left: 60px
+}
+
 .mt-60 {
     margin-top: 60px
 }

@@ -22,8 +22,8 @@
 <body>
     <header class="navbar navbar-expand-sm navbar-light pr">
         <div class="container custom-container">
-            <a class="navbar-brand" href="index.html">
-                <img class="img-fluid w-100" src="images/konnex-logo.png" />
+            <a class="navbar-brand" asp-page="/Index">
+                <img class="img-fluid w-100" src="/images/konnex-logo.png" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -38,25 +38,13 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Konnex Resources</a></li>
+                                <li><a class="dropdown-item" asp-page="/KonnexResources">Konnex Resources</a></li>
                                 <li><a class="dropdown-item" href="#">Phoenix Copper Limited</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                ESG
-                            </a>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Environmental Stewardship</a></li>
-                                <li><a class="dropdown-item" href="#">Social Responsibility</a></li>
-                                <li><a class="dropdown-item" href="#">Corporate Governance</a></li>
-                                <li><a class="dropdown-item" href="#">Konnex Community Action Team</a></li>
-                            </ul>
-                        </div>
+                        <a class="nav-link " asp-page="/ESG">ESG</a>
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
@@ -76,19 +64,12 @@
                         <a class="nav-link" href="/career">News</a>
                     </li>
                     <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Team
-                            </a>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Directors</a></li>
-                                <li><a class="dropdown-item" href="#">Officers and Advisors</a></li>
-                                <li><a class="dropdown-item" href="#">Management</a></li>
-                            </ul>
-                        </div>
+                        <a class="nav-link href=" #" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Management
+                        </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
