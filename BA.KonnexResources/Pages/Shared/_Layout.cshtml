@@ -129,6 +129,77 @@
         AOS.init();
     </script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <div class="modal fade modal-bg" id="wildlife-card" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content wildlife-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Wildlife & Vegetation</h5>
+                    @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+                </div>
+                <div class="modal-body">
+                    <p>Konnex Resources hired an independent environmental engineering company to collect extensive
+                        environmental data over three years. The data collected concludes the Company’s activities at
+                        the Empire Mine will not be damaging to local wildlife or plant life and will not affect the
+                        biodiversity of the area.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-bg" id="water-card" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content water-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Water</h5>
+                    @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+                </div>
+                <div class="modal-body">
+                    <p>The mines are dry and situated 900 feet above the water table. All water will evaporate or be
+                        absorbed into the ground. Despite this, the Company has 12 groundwater monitoring wells to
+                        establish baseline water composition prior to mine production and will continue monitoring the
+                        wells during the life of the mine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-bg" id="electricity-card" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content electricity-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Electricity</h5>
+                    @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+                </div>
+                <div class="modal-body">
+                    <p>There is already power access on the mountain which comes from Idaho’s remarkable renewable
+                        energy grid. Idaho has the 3rd highest percentage of electricity generated from renewables in
+                        the United States at 76%. The Company is looking at more ways to reduce its carbon footprint and
+                        utilize the state’s clean energy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-bg" id="noise-card" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content noise-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Noise, Ligh and Dust Pollution</h5>
+                    @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+                </div>
+                <div class="modal-body">
+                    <p>Noise, light and dust pollution are all items that will be addressed in detail in the
+                        Environmental Impact Statement. Konnex will be required to prove the project does not create
+                        noise, light and dust pollution to begin and remain in operation. The project is not permitted
+                        to exceed a 10-decibel noise threshold beyond one mile of the mine site. For context, the sound
+                        of regular breathing is about 10 decibels. The Company will also be required to fit diffusers on
+                        the headlamps of trucks and provide ways for abating dust.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
