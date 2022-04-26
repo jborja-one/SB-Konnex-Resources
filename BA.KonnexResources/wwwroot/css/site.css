@@ -881,9 +881,9 @@ footer {
     letter-spacing: 0px
 }
 
-.home-wrapper img {
+/* .home-wrapper img {
     padding-left: 75px !important;
-}
+} */
 
 .home-wrapper p {
     max-width: 630px;
@@ -1581,4 +1581,28 @@ footer {
 
 
 @media screen and (max-width:480px) {
+}
+
+/***** Additional Edits *****/
+
+/* ! Home Page */
+.metals-bg{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 132px;
+    margin-top: 100px;
+    padding: 40px;
+    border: 2px 2px 2px white;
+    border-radius: 30px;
+    box-shadow: 14px 14px 20px 6px #e2a19d;
+    color: white !important;
+    background: rgb(154,97,39);
+    background: -moz-linear-gradient(128deg, rgba(154,97,39,0.7105435924369747) 40%, rgba(189,32,38,1) 60%);
+    background: -webkit-linear-gradient(128deg, rgba(154,97,39,0.7105435924369747) 40%, rgba(189,32,38,1) 60%);
+    background: linear-gradient(128deg, rgba(154,97,39,0.7105435924369747) 40%, rgba(189,32,38,1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9a6127",endColorstr="#bd2026",GradientType=1);
+}
+
+.metals-bg p{
+    color: white !important;
 }
