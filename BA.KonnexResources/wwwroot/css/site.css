@@ -1587,24 +1587,28 @@ footer {
 
 /* ! Home Page */
 .metals-bg{
-    width: 90%;
-    margin: auto;
+    background-image: url("../images/copper-rock1.jpeg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
     margin-bottom: 132px;
     margin-top: 100px;
-    padding: 40px;
-    border: 2px 2px 2px white;
-    border-radius: 30px;
-    box-shadow: 14px 14px 20px 6px #e2a19d;
-    color: white !important;
-    background: rgb(154,97,39);
-    background: -moz-linear-gradient(128deg, rgba(154,97,39,0.8253895308123249) 40%, rgba(189,32,38,0.8309917717086834) 60%);
-    background: -webkit-linear-gradient(128deg, rgba(154,97,39,0.8253895308123249) 40%, rgba(189,32,38,0.8309917717086834) 60%);
-    background: linear-gradient(128deg, rgba(154,97,39,0.8253895308123249) 40%, rgba(189,32,38,0.8309917717086834) 60%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9a6127",endColorstr="#bd2026",GradientType=1);
+    /* opacity: 0.5; */
+    filter: grayscale(80%);
 }
 
 .metals-bg p{
     color: white !important;
+    /* font-weight: bold !important; */
+}
+
+.metals-bg h3{
+    color: white !important;
+    /* font-weight: bold !important; */
 }
 
 /* ! ESG Page */
@@ -1619,7 +1623,7 @@ footer {
 
 .card-body{
     color: white;
-    background-color: #018d61;
+    background-color: #bf1f26;
     border-radius: 20px;
     text-align: center;
     transition: all 0.9s ease-in-out;
@@ -1634,19 +1638,19 @@ footer {
 }
 
 /* .card-water{
-    background-color: #026445;
+    background-color: #691215;
 }
 .card-electricity{
-    background-color: #027853;
+    background-color: #8c181c;
 }
 .card-wildlife{
-    background-color: #028d61;
+    background-color: #ae1e22;
 }
 .card-noise{
-    background-color: #02a16f;
+    background-color: #d12329;
 }
 .card-light{
-    background-color: #02b67d;
+    background-color: #d12329;
 } */
 
 .modal-content{
@@ -1656,7 +1660,7 @@ footer {
 }
 
 .modal-content{
-    background-color: #028d61 !important;
+    background-color: #c2383e !important;
 }
 
 .modal-content .modal-header h5{
