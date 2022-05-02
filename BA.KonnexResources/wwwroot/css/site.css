@@ -1596,9 +1596,7 @@ footer {
     background-size: cover;
     padding: 40px;
     margin-bottom: 132px;
-    margin-top: 100px;
-    /* opacity: 0.5; */
-    /* filter: grayscale(100%); */
+    margin-top: 50px;
 }
 
 .metals-bg p{
@@ -1606,7 +1604,7 @@ footer {
     /* font-weight: bold !important; */
 }
 
-.metals-bg h3{
+.metals-bg h3, .metals-bg h1{
     color: white !important;
     /* font-weight: bold !important; */
 }
@@ -1618,6 +1616,15 @@ footer {
 }
 
 /* ! ESG Page */
+
+.esg-header_img{
+    width: 400px;
+    margin-left: 20%;
+}
+
+.esg-img_title{
+    margin-left: 20%;
+}
 
 .card{
     border-radius: 20px;
@@ -1672,7 +1679,7 @@ footer {
 }
 
 .modal-content{
-    background-color: #c2383e !important;
+    background-color: #b3865b !important;
 }
 
 .modal-content .modal-header h5{
