@@ -483,6 +483,29 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, span {
 		Navigations
 ================================ */
 
+.navbar{
+    position: absolute;
+    width: 100%;
+    margin: 20px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.navbar-collapse{
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
 
 .header-menu {
     background: transparent;
