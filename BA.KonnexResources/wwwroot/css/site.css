@@ -483,10 +483,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, span {
 		Navigations
 ================================ */
 
+.navbar-brand{
+    padding-left: 25px;
+}
+
 .navbar{
     position: absolute;
     width: 100%;
-    margin: 20px;
 }
 
 .navbar-container{
