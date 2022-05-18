@@ -488,6 +488,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, span {
 }
 
 .navbar{
+    display: flex;
+    justify-content: space-around;
     position: absolute;
     width: 100%;
 }
