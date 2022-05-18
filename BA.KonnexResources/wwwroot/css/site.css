@@ -502,9 +502,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li, span {
     align-items: self-end;
 }
 
+.navbar_social-icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    padding: 0;
+}
+
 .navbar-collapse{
-    border-top: 1px solid black;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .header-menu {
