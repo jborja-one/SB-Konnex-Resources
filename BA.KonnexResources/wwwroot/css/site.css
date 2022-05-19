@@ -1643,13 +1643,16 @@ footer {
 
 .eachSlide{
     position: relative;
+    display: flex !important;
+    justify-content: center;
+    background-color: black
 }
 
 .content-container {
     position: absolute;
     width: 80%;
     top: 30%;
-    left: 11%;
+    left: 13%;
     right: 0;
     bottom: 0;
 }
