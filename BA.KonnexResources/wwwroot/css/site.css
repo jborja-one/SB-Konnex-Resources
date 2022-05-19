@@ -1624,6 +1624,28 @@ footer {
 /***** Additional Edits *****/
 
 /* ! Home Page */
+
+.eachSlide{
+    position: relative;
+}
+
+.content-container {
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 11%;
+    right: 0;
+    bottom: 0;
+}
+
+.content > h2, h3 {
+    color: white;
+}
+
+.content > p {
+    color: white;
+}
+
 .metals-bg{
     background-image: url("../images/copper-rock1.jpeg");
     width: 100%;
@@ -1735,34 +1757,14 @@ footer {
     font-weight: 400;
 }
 
-/* ! Additional Style */
-/* ? Home Page */
 
-.eachSlide{
+
+/* ! Konnex Resources Page */
+
+.header-container{
     position: relative;
+    top: 100px;
+    margin-bottom: 80px;
 }
 
-.content-container {
-    position: absolute;
-    width: 80%;
-    top: 15%;
-    left: 11%;
-    right: 0;
-    bottom: 0;
-}
-
-/* .content{
-    position: absolute;
-    z-index: 1;
-    display:table;
-    width:100%;
-    height:100%;
-} */
-
-.content > h1, h3 {
-    color: white;
-}
-
-.content > p {
-    color: white;
-}
+/*  */
