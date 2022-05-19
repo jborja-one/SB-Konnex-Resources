@@ -581,7 +581,7 @@ header {
         header ul li a {
             font-size: 16px;
             font-weight: 600;
-            color: #182133 !important;
+            color: #182133;
             position: relative;
             display: inline-block;
             letter-spacing: 1px;
@@ -830,6 +830,7 @@ header {
 footer {
     z-index: 9;
     position: relative;
+    /* top: 250px; */
 }
 
     footer ul {
@@ -1623,6 +1624,21 @@ footer {
 
 /***** Additional Edits *****/
 
+/* ! Universal */
+
+.header-container{
+    position: revert;
+    top: 100px;
+    margin-bottom: 80px;
+    background-color: #f5efe9;
+}
+
+/* ! Layout */
+
+.nav-link{
+    color: white !important;
+}
+
 /* ! Home Page */
 
 .eachSlide{
@@ -1680,6 +1696,11 @@ footer {
 .esg-header_img{
     width: 400px;
     margin-left: 20%;
+}
+
+.esg-container{
+    position: relative;
+    top: 100px;
 }
 
 .esg-img_title{
@@ -1759,12 +1780,17 @@ footer {
 
 
 
-/* ! Konnex Resources Page */
+/* ! The Project Page */
 
-.header-container{
+/* #faq {
     position: relative;
     top: 100px;
     margin-bottom: 80px;
-}
+    background-color: #f5efe9;
+} */
 
-/*  */
+.project-container{
+    position: relative;
+    top: 200px;
+    margin: 0 60px;
+}
