@@ -1639,6 +1639,19 @@ footer {
     color: white !important;
 }
 
+.video-container{
+    width: 100%;
+    height: auto;
+}
+
+.video{
+    width: 1080px;
+    height: auto;
+}
+
+#presentationGif{
+    left: -18%;
+}
 /* ! Home Page */
 
 .eachSlide{
