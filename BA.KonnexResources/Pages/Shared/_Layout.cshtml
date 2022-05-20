@@ -76,7 +76,7 @@
 
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <li><a class="dropdown-item" asp-page="/KonnexResources">Konnex Resources</a></li>
-                                    <li><a class="dropdown-item" href="#">Phoenix Copper Limited</a></li>
+                                    <li><a class="dropdown-item" asp-page="/PhoenixCopperLimited">Phoenix Copper Limited</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -93,22 +93,21 @@
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <li><a class="dropdown-item" asp-page="/Project">The Project</a></li>
                                     <li><a class="dropdown-item" href="~/Project/project/#faq">FAQ</a></li>
-                                    <li><a class="dropdown-item" href="#">History</a></li>
+                                    <li><a class="dropdown-item" asp-page="/History">History</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" asp-page="/News">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=" #" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link" asp-page="/Management">
                                 Management
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" asp-page="/Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
