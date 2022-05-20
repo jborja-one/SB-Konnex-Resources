@@ -1342,10 +1342,10 @@ footer {
     position: relative;
 }
 
-.animated-gif-container img {
+/* .animated-gif-container img {
     width:100%;
     height: auto;
-}
+} */
 
 .animated-gif-container .btn {
     position: absolute;
@@ -1676,13 +1676,14 @@ footer {
 }
 
 .video{
+    position: absolute;
     width: 1080px;
     height: auto;
 }
 
-#presentationGif{
+/* #presentationGif{
     left: -18%;
-}
+} */
 /* ! Home Page */
 
 .eachSlide{
