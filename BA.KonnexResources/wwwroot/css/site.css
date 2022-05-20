@@ -1673,17 +1673,18 @@ footer {
 .video-container{
     width: 100%;
     height: auto;
+    /* position: relative; */
 }
 
-.video{
+.modal-content{
     position: absolute;
     width: 1080px;
     height: auto;
 }
 
-/* #presentationGif{
+#presentationGif{
     left: -18%;
-} */
+}
 /* ! Home Page */
 
 .eachSlide{
