@@ -803,7 +803,7 @@ header {
 
 .blank-red-btn {
     color: #a96148;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.3;
     position: relative;
     text-decoration: none;
@@ -1705,17 +1705,10 @@ footer {
 .content > h2, h3 {
     color: white;
 }
-    .content > h2, h3 .dark {
-    color: black;
-}
 
 .content > p {
     color: white;
 }
-
-    .content > p .dark {
-        color: black;
-    }
 
 .metals-bg{
     background-image: url("../images/copper-rock1.jpeg");
