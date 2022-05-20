@@ -1676,7 +1676,7 @@ footer {
     /* position: relative; */
 }
 
-.modal-content{
+.video-content{
     position: absolute;
     width: 1080px;
     height: auto;
