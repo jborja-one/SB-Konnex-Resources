@@ -1,40 +1,48 @@
 @page
 @model BA.KonnexResources.Pages.ESGModel
 @{
+    Layout = "_layout2";
     ViewData["Title"] = "ESG";
 }
-<div class="container-fluid pt-100 px-4 header-container">
-    <div class='esg-container'>
-        <h1 class='pb-4'>Our Commitment</h1>
-        <h3 class='pb-3' style='color:black'>Environmental sustainability, Social responsibility, Transparent Governance
-        </h3>
-        <p class="text-md px-4">
-            <strong>Konnex Resources</strong> is committed to being a leader in modern mining practices by making
-            environmental stewardship, social responsibility, and transparent governance (ESG) the foundation of
-            everything we do. In June 2021, we established an ESG & Sustainability Committee. The role of the committee
-            is to ensure the practices of Konnex Resources and its parent company, Phoenix Copper Limited, are meeting
-            and exceeding the laws and regulations put in place to protect the natural resources and communities located
-            in and around its mining operations.
-        </p>
-    </div>
+<div class="header-container pt-150 px-4">
 </div>
+
+<div class="esg-container">
+    <h1 class="pb-4">Our Commitment</h1>
+    <h3 class="blank-red-btn" style="color:black">
+        Environmental sustainability, Social responsibility, Transparent Governance
+    </h3>
+    <p class="text-md px-4">
+        <strong>Konnex Resources</strong> is committed to being a leader in modern mining practices by making
+        environmental stewardship, social responsibility, and transparent governance (ESG) the foundation of
+        everything we do. In June 2021, we established an ESG & Sustainability Committee. The role of the committee
+        is to ensure the practices of Konnex Resources and its parent company, Phoenix Copper Limited, are meeting
+        and exceeding the laws and regulations put in place to protect the natural resources and communities located
+        in and around its mining operations.
+    </p>
+</div>
+
 <div class="container-fluid py-100">
     <div class="container ">
         <div class="row justify-content-evenly">
             <div class="col-lg-5">
-                <p class="text-md mb-5" data-aos="fade-up" data-aos-duration="2000">“A responsible mining operation has
+                <p class="text-md mb-5" ">
+                    “A responsible mining operation has
                     the potential to bring sustainable economic benefits to Mackay. I would love to see local businesses
                     thriving and my kids and their classmates with more opportunities to make high-paying wages in town.
                     I’ve found the leadership at Konnex Resources to be great partners for creating these opportunities
-                    while placing the highest importance on protecting the area’s lands, waters, and wildlife.”</p>
+                    while placing the highest importance on protecting the area’s lands, waters, and wildlife.”
+                </p>
                 <a class="red-btn" href="#" data-aos="fade-up" data-aos-duration="2000">Have your say</a>
             </div>
-            <div class="col-lg-7 p-0" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-lg-7 p-0">
                 <img class="esg-header_img" width="100%" src="/images/Lenie Wilkie headshot.jpg" />
-                <h3 class="mb-0 esg-img_title" data-aos="fade-up" data-aos-duration="2000" style='color:black'>Lenie
+                <h3 class="mb-0 esg-img_title" style="color:black">
+                    Lenie
                     Wilkie</br>ESG
                     Coordinator, Mackay
-                    resident</h3>
+                    resident
+                </h3>
             </div>
         </div>
     </div>
@@ -43,13 +51,13 @@
     <div class="container">
     <div class="row">
     <div class="col-md-12 pb-100">
-    <h3 class="head-sm" data-aos="fade-up" data-aos-duration="2000">Environmental Stewardship</h3>
+    <h3 class="blank-red-btn" data-aos="fade-up" data-aos-duration="2000">Environmental Stewardship</h3>
     <p class="text-lg pl-60 text-darkblue" data-aos="fade-up" data-aos-duration="2000">
     Custer County and Lost River Valley residents have a fierce pride in the outstanding beauty of their
     surroundings. As the Empire Mine and other exploration projects advance in the area, the Konnex team
     continues to make environmental stewardship our top priority.
     </p>
-    <p class="text-lg pl-60 text-darkblue" data-aos="fade-up" data-aos-duration="2000">
+    <p class="text-lg pl-60 text-darkblue" >
     In 2017, Konnex hired an independent environmental engineering company to conduct baseline studies.
     Since then, the company has tracked and studied a variety of elements of the environment including
     climate and air quality, surface and groundwater hydrology, soil characterization, transportation,
@@ -63,25 +71,29 @@
     </div>
     </div> *@
 <div class="container-fluid py-100 pr team-container mt-60">
-    <div class="container" id='environmentalStewardship'>
+    <div class="container" id="environmentalStewardship">
         <div class="row flex-center calc-left">
             <div class="col-md-7">
-                <a name="EnvironmentalStewardship"/>
                 <img data-aos="fade-up" data-aos-duration="2000" class="img-fluid w-100" src="/images/esg.jpeg" />
             </div>
             <div class="col-md-5 px-50">
-                <h3 class="head-lg text-white" data-aos="fade-up" data-aos-duration="2000">Environmental Stewardship
+                <a name="EnvironmentalStewardship" />
+                <h3 class="head-lg text-white" data-aos="fade-up" data-aos-duration="2000">
+                    Environmental Stewardship
                 </h3>
-                <p class="text-white text-md mt-4" data-aos="fade-up" data-aos-duration="2000">Custer County and Lost
+                <p class="text-white text-md mt-4" data-aos="fade-up" data-aos-duration="2000">
+                    Custer County and Lost
                     River Valley residents have a fierce pride in the outstanding beauty of their surroundings. As the
                     Empire Mine and other exploration projects advance in the area, the Konnex team continues to make
-                    environmental stewardship our top priority.</p>
+                    environmental stewardship our top priority.
+                </p>
             </div>
         </div>
     </div>
 </div>
 <div class="col-md-12 pb-100">
-    <p class="text-lg py-4 pl-70 text-darkblue" data-aos="fade-up" data-aos-duration="2000">In 2017,
+    <p class="text-lg py-4 pl-70 text-darkblue">
+        In 2017,
         <strong>Konnex</strong> hired an independent environmental engineering company to conduct baseline studies.
         Since then, the company has tracked and studied a variety of elements of the environment including climate and
         air quality, surface and groundwater hydrology, soil characterization, transportation, water use and treatment,
@@ -90,80 +102,93 @@
         for Konnex’s development plans. It will also serve as a benchmark for reclamation at the end of the mine life.
     </p>
 </div>
-<div width="100% " class="container-fluid" data-aos="fade-up" data-aos-duration="2000">
+<div width="100% " class="container-fluid">
     <div>
-        <h2 class="mb-3 mx-5" data-aos="fade-up" data-aos-duration="2000">Empire Mine Environmental Information
+        <h2 class="blank-red-btn">
+            Empire Mine Environmental Information
         </h2>
-        <p class="text-md mb-5 pl-70" data-aos="fade-up" data-aos-duration="2000">The information below is based on
+        <p class="text-md mb-5 pl-70">
+            The information below is based on
             baseline
             and socio-economic studies conducted by an independent environmental engineering firm. These results are
             used to inform our drilling activities in the area and will be used as a benchmark for reclamation. A
             detailed Environmental Impact Statement (EIS) conducted by independent authorities as part of the National
             Environmental Policy Act (NEPA) process will verify that Konnex has taken the measures necessary to protect
-            the area’s natural resources before commercial mining of Empire can begin.</p>
+            the area’s natural resources before commercial mining of Empire can begin.
+        </p>
     </div>
     <div class="container-fluid d-flex justify-center justify-between my-5" data-aos="fade-up" data-aos-duration="2000">
         <div class="card card-water">
-            <div class="card-body d-flex flex-column align-items-center" data-bs-toggle='modal'
-                data-bs-target="#water-card">
-                <img src="/images/water-xxl.png" width="160" />
+            <div class="card-body d-flex flex-column align-items-center" data-bs-toggle="modal"
+                 data-bs-target="#water-card">
+                <img src="/images/water-xxl.png" width="160px" />
                 <h5 class="card-title text-center mt-3">Water</h5>
-                <p class="card-text">The mine is a zero-discharge facility located high above the water table, meaning
-                    water runoff and pollution are not concerns.</p>
+                <p class="card-text">
+                    The mine is a zero-discharge facility located high above the water table, meaning
+                    water runoff and pollution are not concerns.
+                </p>
                 <p>--Learn More--</p>
             </div>
         </div>
         <div class="card card-electricity">
-            <div class="card-body d-flex flex-column align-items-center" data-bs-toggle='modal'
-                data-bs-target="#electricity-card">
-                <img src='/images/plug-xxl.png' width='160px' />
+            <div class="card-body d-flex flex-column align-items-center" data-bs-toggle="modal"
+                 data-bs-target="#electricity-card">
+                <img src="/images/plug-xxl.png" width="160px" />
                 <h5 class="card-title text-center mt-3">Electricity</h5>
-                <p class="card-text">Konnex plans to use the source of power currently on the mountain, which comes
-                    predominantly from renewables.</p>
+                <p class="card-text">
+                    Konnex plans to use the source of power currently on the mountain, which comes
+                    predominantly from renewables.
+                </p>
                 <p>--Learn More--</p>
             </div>
         </div>
         <div class="card card-wildlife">
-            <div class="card-body d-flex flex-column align-items-center flex-wrap" data-bs-toggle='modal'
-                data-bs-target="#wildlife-card">
-                <img src="/images/pawprint-xxl.png" width="160" />
+            <div class="card-body d-flex flex-column align-items-center flex-wrap" data-bs-toggle="modal"
+                 data-bs-target="#wildlife-card">
+                <img src="/images/pawprint-xxl.png" width="160px" />
                 <h5 class="card-title text-center mt-3" font-size="19px">Wildlife and Vegetation</h5>
-                <p class="card-text">Konnex’s activities are not damaging to local wildlife or plant life and will not
-                    affect the biodiversity of the area. </p>
-                <p> --Learn More-- </p>
+                <p class="card-text">
+                    Konnex’s activities are not damaging to local wildlife or plant life and will not
+                    affect the biodiversity of the area.
+                </p>
+                <p>--Learn More--</p>
             </div>
         </div>
         <div class="card card-noise">
-            <div class="card-body d-flex flex-column align-items-center" data-bs-toggle='modal'
-                data-bs-target="#noise-card">
-                <img src='/images/speaker-xxl.png' width='160px' />
+            <div class="card-body d-flex flex-column align-items-center" data-bs-toggle="modal"
+                 data-bs-target="#noise-card">
+                <img src="/images/speaker-xxl.png" width="160px" />
                 <h5 class="card-title text-center mt-3">Pollution</h5>
-                <p class="card-text">Regulators have strict rules around noise, light and dust pollution. Konnex will be
-                    required to prove it will eliminate any impacts.</p>
+                <p class="card-text">
+                    Regulators have strict rules around noise, light and dust pollution. Konnex will be
+                    required to prove it will eliminate any impacts.
+                </p>
                 <p>--Learn More--</p>
             </div>
         </div>
     </div>
 </div>
-<div class='container-fluid mt-100 ' width='100%'>
-    <h2 class="mb-3 mx-5 ms-50" data-aos="fade-up" data-aos-duration="2000">Visual Expectations</h2>
-    <p class='text-lg mx-5' data-aos="fade-up" data-aos-duration="2000">Expected view of Empire Mine site from three
+<div class="container-fluid mt-100 " width="100%">
+    <h2 class="blank-red-btn">Visual Expectations</h2>
+    <p class="text-lg mx-5">
+        Expected view of Empire Mine site from three
         different
         perspectives show very little visual impact as a
         result of
-        mine activities. </p>
+        mine activities.
+    </p>
 </div>
-<div class="container accordion accordion-flush mt-5 pb-100" data-aos="fade-up" data-aos-duration="2000" id="
+<div class="container accordion accordion-flush mt-5 pb-100" id="
     accordionFlushExample">
     <div class="accordion-item">
         <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 View from U.S. Route 93 looking southwest
             </button>
         </h2>
         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample">
+             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
                 <img width="100%" src="/images/View pic 1.png">
             </div>
@@ -172,12 +197,12 @@
     <div class="accordion-item">
         <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 View from Mackay City Park looking southwest
             </button>
         </h2>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-            data-bs-parent="#accordionFlushExample">
+             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
                 <img width="100%" src="/images/View pic 2.png">
             </div>
@@ -186,12 +211,12 @@
     <div class="accordion-item">
         <h2 class="accordion-header" id="flush-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 View from Mackay Residence looking west
             </button>
         </h2>
         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
+             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
                 <img width="100%" src="/images/View pic 3.png">
             </div>
@@ -199,21 +224,20 @@
     </div>
 </div>
 <div class="col-md-12 pb-100 mx-5 ms-50">
-    <a name="SocialResponsibility"/>
-    <h2 class="mb-4 my-60" data-aos="fade-up" data-aos-duration="2000">Social Responsibility</h2>
-    <p class="text-md mb-5 mx-4" data-aos="fade-up" data-aos-duration="2000">Konnex Resources is
+    <a name="SocialResponsibility" />
+    <h2 class="blank-red-btn">Social Responsibility</h2>
+    <p class="text-md mb-5 mx-4">
+        Konnex Resources is
         committed to creating and maintaining partnerships in the communities close to its operations. We recognize that
         people living in Custer and Butte counties have unique perspectives that deserve to be represented in
         decision-making processes throughout the life of our activities in central Idaho. Konnex leaders intend to
         continue providing opportunities to participate in direct and transparent communications with all stakeholders
-        to engage the community and to make our operations the best they can be.</p>
-    <ul>
-        <li>
-            <h4>Konnex Community Advisory Team</h4>
-        </li>
-    </ul>
+        to engage the community and to make our operations the best they can be.
+    </p>
     <a name="KCAT" />
-    <p class="text-md mb-5 mx-4">The Konnex Community Advisory Team (KCAT) is made up of 10 independent residents of
+    <h2 class="blank-red-btn">Konnex Community Advisory Team</h2>
+    <p class="text-md mb-5 mx-4">
+        The Konnex Community Advisory Team (KCAT) is made up of 10 independent residents of
         Custer and Butte
         counties and three representatives from Konnex Resources. The mission of KCAT is to create an enduring
         model of partnership, transparency, and accountability between Konnex and the local communities.
@@ -230,12 +254,11 @@
         Anyone living within Custer and Butte Counties is welcome to apply for KCAT’s next open position.
     </p>
     <a class="red-btn mx-4" href="#" data-aos="fade-up" data-aos-duration="2000">Apply for KCAT</a>
-    <ul class='pt-120'>
-        <li>
-            <h4>Investing in Opportunities</h4>
-        </li>
-    </ul>
-    <p class="text-md mb-5 mx-4">Konnex Resources is proud to invest in the people and community programs that make
+</div>
+<div class="col-md-12 pb-100 mx-5 ms-50">
+    <h2 class="blank-red-btn">Investing in Opportunities</h2>
+    <p class="text-md mb-5 mx-4">
+        Konnex Resources is proud to invest in the people and community programs that make
         Custer and Butte counties great places to live and work. Each year, Konnex provides funding to support local
         sporting events, community programs, and scholarship awards. Our geologists also provide educational
         opportunities for local high school students as a way to foster an interest in mining activities and inspire an
@@ -245,165 +268,168 @@
     <a class="red-btn mx-4" href="#" data-aos="fade-up" data-aos-duration="2000">Apply for Scholarships</a>
 </div>
 <div class="col-md-12 pb-100 mx-5 ms-50">
-    <a name="CorporateGovernance"/>
-    <h2 class="mb-4 my-60" data-aos="fade-up" data-aos-duration="2000">Corporate Governance</h2>
-    <h3 class='pb-3' style='color:black'>Konnex Resources and its parent company, Phoenix Copper Limited, share a firm
+    <a name="CorporateGovernance" />
+    <h2 class="blank-red-btn">Corporate Governance</h2>
+    <h3 class="pb-3" style="color:black">
+        Konnex Resources and its parent company, Phoenix Copper Limited, share a firm
         set of corporate policies and promote best practices at every level of our operations that meet and exceed what
         is required by law.
     </h3>
-    <p class="text-lg py-4 text-darkblue" data-aos="fade-up" data-aos-duration="2000">We are fortunate to be
+    <p class="text-lg py-4 text-darkblue">
+        We are fortunate to be
         operating in an area where the mining industry is highly regulated to protect the environment, employees, and
         communities surrounding the operations. We also recognize that residents of Mackay, Idaho and its neighboring
         cities enjoy a unique way of life and culture that requires protection beyond what is written in law. For this
         reason, Konnex has asked the members of the Konnex Community Advisory Team to draft a ‘Good Neighbor Agreement.’
         The Good Neighbor Agreement will be developed by the community representatives, with input from their peers, as
         formal commitment between the Company and the community. It will allow for community interests to be properly
-        represented as we work to set the gold standard for our operations, employment practices, and more.</p>
-    <div class='faq-title mb-60'>
+        represented as we work to set the gold standard for our operations, employment practices, and more.
+    </p>
+    <div class="faq-title mb-60">
         <h3 style="color:black">QCA Code includes these policies:</h3>
     </div>
     <div class="accordion accordion-flush" id="accordionFaq">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     Business Model and Strategy
                 </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                     Understanding Shareholder Needs and Expectations
                 </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                     Consider Wider Stakeholder and Social Responsibilities
                 </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                     Risk Management
                 </button>
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                     A Well-functioning Board of Directors
                 </button>
             </h2>
             <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingSix">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                     Appropriate Skills and Experience of Directors
                 </button>
             </h2>
             <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingSeven">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
                     Evaluation of Board Performance
                 </button>
             </h2>
             <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingEight">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
                     Corporate culture
                 </button>
             </h2>
             <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingNine">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                        data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
                     Maintenance of Governance Structures and Processes
                 </button>
             </h2>
             <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTen">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
                     Shareholder Communication
                 </button>
             </h2>
             <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-heading11">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                        data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
                     Share Dealing Policy
                 </button>
             </h2>
             <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-heading12">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                        data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
                     Anti-bribery & Anti-corruption Policy
                 </button>
             </h2>
             <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFaq">
+                 data-bs-parent="#accordionFaq">
                 <div class="accordion-body">Placeholder for downloadble PDF.</div>
             </div>
         </div>

@@ -1656,7 +1656,6 @@ footer {
 /* ! Universal */
 
 .header-container{
-    position: revert;
     top: 100px;
     margin-bottom: 80px;
     background-color: #f5efe9;
