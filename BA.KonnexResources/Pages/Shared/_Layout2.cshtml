@@ -88,7 +88,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #2a3849 !important;" asp-page="/About">About</a>
+                            <a class="nav-link" style="color: #2a3849 !important;" asp-page="/KonnexResources">About</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -115,9 +115,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <li><a class="dropdown-item" href="~/Project">The Project</a></li>
+                                    <li><a class="dropdown-item" asp-page="~/Project">The Project</a></li>
                                     <li><a class="dropdown-item" href="~/Project/#faq">FAQ</a></li>
-                                    <li><a class="dropdown-item" href="~/History">History</a></li>
+                                    @* <li><a class="dropdown-item" asp-page="/History">History</a></li> *@
                                 </ul>
                             </div>
                         </li>
@@ -125,7 +125,8 @@
                             <a class="nav-link" style="color: #2a2849 !Important;" asp-page="/News">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #2a2849 !Important;" asp-page="/KonnexResources">Team</a>
+                            <a class="nav-link" style="color: #2a2849 !Important;"
+                                href="/KonnexResources/#team">Team</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: #2a2849 !Important;" asp-page="/Contact">Contact</a>
@@ -147,7 +148,8 @@
                 <div class=" social-icons">
                     <div class="">
                         <a class="navbar-brand" asp-page="/Index">
-                            <img src="https://phoenixcopperlimited.com/images/phoenix-copper-limited-logo.png" height="50" />
+                            <img src="https://phoenixcopperlimited.com/images/phoenix-copper-limited-logo.png"
+                                height="50" />
                         </a>
                     </div>
                 </div>
